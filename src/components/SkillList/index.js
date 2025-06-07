@@ -8,8 +8,8 @@ function SkillList() {
 
   useEffect(() => {
     const fetchAPI = async () => {
-      const respone = await getListTags();
-      setTags(respone);
+      const response = await getListTags();
+      setTags(response);
     };
     fetchAPI();
   }, []);
